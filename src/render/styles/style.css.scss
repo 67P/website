@@ -1,0 +1,56 @@
+@import "bourbon";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #000;
+  background-image: url(/img/lagoon-close-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: Abel;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+}
+
+section#teaser {
+  height: 100%;
+  text-align: center;
+
+  @include display(flex);
+  @include flex-direction(column);
+  @include flex-wrap(nowrap);
+  @include align-items(center);
+  @include align-content(center);
+  @include justify-content(center);
+  @include flex-grow(0);
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 12px;
+  p {
+    display: inline-block;
+    opacity: 0.7;
+  }
+}

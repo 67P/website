@@ -1,0 +1,10 @@
+---
+title: "Kosmos"
+layout: "default"
+isPage: true
+---
+
+<section id="teaser">
+  <h1><%= @document.title %></h1>
+  <p>Open-source group communication for the 21st century</p>
+</section>
