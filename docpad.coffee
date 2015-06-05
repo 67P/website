@@ -1,13 +1,15 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
 
-# Define the DocPad Configuration
 docpadConfig = {
   plugins:
     nodesass:
       outputStyle: 'nested'
       bourbon: true
+
+  environments:
+    static:
+      outPath: 'dist'
 }
 
-# Export the DocPad Configuration
 module.exports = docpadConfig
