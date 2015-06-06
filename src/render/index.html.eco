@@ -7,6 +7,13 @@ isPage: true
 <section id="teaser">
   <h1><%= @document.title %></h1>
   <h2>Open-source group communication for the 21st century</h2>
+  <nav>
+    <ul>
+      <li><a href="https://wiki.67p.io">Wiki</a></li>
+      <li><a href="https://github.com/67P">GitHub</a></li>
+      <li><a href="https://twitter.com/KosmosHQ">Twitter</a></li>
+    </ul>
+  </nav>
 <!--
   <p>
     Kosmos is a new kind of team communication service. All of it is based on
