@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title><%= @document.title %></title>
+    <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <!--[if IE]>
         <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
