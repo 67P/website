@@ -1,0 +1,12 @@
+{
+  "links": [
+    {
+      "rel": "urn:xmpp:alt-connections:xbosh",
+      "href": "https://xmpp.kosmos.org:5280/bosh"
+    },
+    {
+      "rel": "urn:xmpp:alt-connections:websocket",
+      "href": "wss://xmpp.kosmos.org:5280/ws"
+    }
+  ]
+}
